@@ -1,1 +1,108 @@
-@media screen and (max-width:1200px){.row{width: 100%;padding: 0 30px;}}/*@media screen and (max-width:1024){}*/@media screen and (max-width:768px){.items-process{grid-template-columns: 1fr 1fr;grid-gap: 10px;}.protfolio_bar_container{grid-template-columns: 1fr 1fr;}.protfolio_items:nth-child(5){grid-column: 1/2;}.manu_items{text-align: center;position: relative;top: 50%;left: 37%;transform: translate(-50%, -50%);}.close_botton ion-icon{position: absolute;right: 25%;top: 45px;color: #fff;font-size: 40px;border: 1px solid #fff;cursor: pointer;}}@media screen and (max-width:480px){html,body{font-size: 8px;}.hero-text-box span{font-size: 18px;}.grid-about-container{grid-template-columns: 1fr;text-align: center;}.items-process{grid-template-columns: 1fr;}.work_exprince_container,.protfolio_bar_container,.contact_container{grid-template-columns: 1fr;grid-gap: 10px;}.manu_items{text-align: center;position: relative;top: 40%;left: 25%;transform: translate(-50%, -50%);}.close_botton ion-icon{position: absolute;right: 45%;top: 100px;color: #fff;font-size: 40px;border: 1px solid #fff;cursor: pointer;}}
+@media screen and (max-width: 1200px) {
+    .row {
+        width: 100%;
+        padding: 0 30px;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .items-process {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .protfolio_bar_container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .protfolio_items:nth-child(5) {
+        grid-column: 1/2;
+    }
+    .manu_items {
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 37%;
+        transform: translate(-50%, -50%);
+    }
+    .close_botton ion-icon {
+        position: absolute;
+        right: 25%;
+        top: 45px;
+        color: #fff;
+        font-size: 40px;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 480px) {
+    html,
+    body {
+        font-size: 8px;
+    }
+    .hero-text-box span {
+        font-size: 18px;
+    }
+    .grid-about-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .items-process {
+        grid-template-columns: 1fr;
+    }
+    .work_exprince_container,
+    .protfolio_bar_container,
+    .contact_container {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .manu_items {
+	text-align: center;
+	position: relative;
+	top: 30%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+}
+    .close_botton ion-icon {
+        position: absolute;
+        right: 45%;
+        top: 100px;
+        color: #fff;
+        font-size: 40px;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+	.close_botton ion-icon {
+	color: #fff;
+	font-size: 40px;
+	cursor: pointer;
+	position: absolute;
+	top: 5%;
+	right: 6% !important;
+}
+}
+@media screen and (max-width: 375px){
+	.close_botton ion-icon {
+	position: absolute;
+	right: 8%;
+	top: 5%;
+	color: #fff;
+	font-size: 40px;
+	border: 1px solid #fff;
+	cursor: pointer;
+   }
+	.manu_items {
+	text-align: center;
+	position: relative;
+	top: 30%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+   }
+	.mixitup_manu button {
+	background: #ff2b4a;
+	color: #fff;
+	padding: 10px 15px;
+	cursor: pointer;
+	border: 1px solid #ff2b4a;
+	display: inline;
+	margin-top: 20px;
+    }
+}
